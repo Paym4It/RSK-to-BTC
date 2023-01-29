@@ -30,7 +30,6 @@ async function getRawTx(n, TxId) {
             return;             
     }
    
-
 }
 
 module.exports = {getRawTx};
