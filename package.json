@@ -4,7 +4,8 @@
   "description": "Get the public key from an RSK transaction and then guess the BTC address federatos may send funds",
   "main": "getBTCAddress.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "set":"node ins"
   },
   "repository": {
     "type": "git",
