@@ -2,9 +2,11 @@
 // valid values for "net": "m" for mainnet and "t" for testnet
 // source: https://ethereum.stackexchange.com/questions/125890/how-to-recover-the-public-key-from-r-s-and-v-without-the-private-key
 const { ethers } = require("ethers");
+// require('dotenv').config();
 const tURL = 'https://testnet.sovryn.app/rpc';
-// const mURL = 'https://mainnet.sovryn.app/rpc';
-const mURL = 'https://mainnet.infura.io/v3/2af22cafbb104de7a5cb5eae81117cd7';
+const mURL = 'https://mainnet.sovryn.app/rpc';
+// const KEY = process.env.INFURA;
+// const mURL = 'https://mainnet.infura.io/v3/' + KEY;
 const tnet = new ethers.providers.JsonRpcProvider(tURL);
 const mnet = new ethers.providers.JsonRpcProvider(mURL);
 const PARAMETERS = process.argv;
