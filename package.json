@@ -1,0 +1,30 @@
+{
+  "name": "rsk-to-btc",
+  "version": "0.1.0",
+  "description": "Get the public key from an RSK transaction and then guess the BTC address federatos may send funds",
+  "main": "getBTCAddress.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paym4It/RSK-to-BTC.git"
+  },
+  "keywords": [
+    "RSK",
+    "public",
+    "key",
+    "BTC",
+    "address"
+  ],
+  "author": "@jjmr007",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paym4It/RSK-to-BTC/issues"
+  },
+  "homepage": "https://github.com/Paym4It/RSK-to-BTC#readme",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "web3": "^1.8.1"
+  }
+}
