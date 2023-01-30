@@ -26,7 +26,6 @@
   "homepage": "https://github.com/Paym4It/RSK-to-BTC#readme",
   "dependencies": {
     "cli-color": "^2.0.3",
-    "ethers": "^5.7.2",
-    "web3": "^1.8.1"
+    "ethers": "^5.7.2"
   }
 }
