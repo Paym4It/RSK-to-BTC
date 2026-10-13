@@ -12,3 +12,5 @@ git bash 2.u.v
 `$ node index m <transaction-hash>`  
 ### To know the possible BTC addresses linked to the signer of a RSK testnet Transaction:
 `$ node index t <transaction-hash>`  
+## License
+This project is licensed under the [MIT License](LICENSE).
